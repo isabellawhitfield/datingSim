@@ -37,7 +37,7 @@ var dating = [
     },
     {
         name : "George Thomas Arthur",
-        gender : "Female",
+        gender : "Male",
         simulation : true,
         age : 30,
         photo: "images/chiwhawha.jpeg"
@@ -45,46 +45,91 @@ var dating = [
    
     },
     {
-        name : "Stacey Lane Mathews",
+        name : "Amelia Charlotte",
         gender : "Female",
-        simulation : true,
-        age : 30,
+        simulation : false,
+        age : 24,
         photo: "images/chiwhawha.jpeg"
    
    
     },
    {
-        name : "Kate Tiffany",
+        name : "Ava Mia Olivia",
         gender : "Female",
         simulation : false,
-        age : 25,
+        age : 26,
         photo: "images/chiwhawha.jpeg"
    
    
     },
     {
-        name : "Vincent Peters",
+        name : "Aaron Gabriel Baldwin",
         gender : "Male",
         simulation : true,
-        age : 22,
+        age : 20,
         photo: "images/chiwhawha.jpeg"
    
    
     },
     {
-        name : "Friendrich Heinz",
+        name : "Daniel Felix Barry",
         gender : "Male",
         simulation : true,
-        age : 28,
+        age : 29,
         photo: "images/chiwhawha.jpeg"
    
    
     },
     {
-        name : "George Thomas Arthur",
-        gender : "Female",
-        simulation : true,
+        name : "Harold Earl Fabian",
+        gender : "Male",
+        simulation : false,
         age : 30,
+        photo: "images/chiwhawha.jpeg"
+   
+   
+    },
+    {
+        name : "Abigail Evelyn Beth",
+        gender : "Female",
+        simulation : false,
+        age : 19,
+        photo: "images/chiwhawha.jpeg"
+   
+   
+    },
+   {
+        name : "Scarlett Emma Grace",
+        gender : "Female",
+        simulation : false,
+        age : 20,
+        photo: "images/chiwhawha.jpeg"
+   
+   
+    },
+    {
+        name : "Ronnie Vin Calvin",
+        gender : "Male",
+        simulation : true,
+        age : 18,
+        photo: "images/chiwhawha.jpeg"
+   
+   
+    },
+    {
+        name : "Caleb Harry Abe",
+        gender : "Male",
+        simulation : true,
+        age : 27,
+        photo: "images/chiwhawha.jpeg"
+   
+   
+    },
+    {
+        name : "Gabe Ned Eddy",
+        gender : "Male",
+        simulation : false,
+        age : 22,
         photo: "images/chiwhawha.jpeg"
    
    
