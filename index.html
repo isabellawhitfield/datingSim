@@ -8,13 +8,50 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title></title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Conspiracy Dating</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <button id="female" class="nav-link">Female</button>
+          </li>
+          <li class="nav-item">
+            <a id="male" class="nav-link">Male</a>
+          </li>
+          <li class="nav-item">
+            <a id="simulation" class="nav-link">People who believe life is a simulation run on god's computer</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Favourite Colour
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" id="blue">Blue</a>
+              <a class="dropdown-item" id="green">Green</a>
+              <a class="dropdown-item" id="pink">Pink</a>
+              <a class="dropdown-item" id="yellow">Yellow</a>
+              <a class="dropdown-item" id="scarlett">Scarlett</a>
+              <a class="dropdown-item" id="orange">Orange</a>
+              <a class="dropdown-item" id="navy">Navy</a>
+              
+            </div>
+          </li>
+  
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </head>
   <body>
-  <button id="female" class="btn btn-primary">Female</button>
-  <button id="male" class="btn btn-primary">Male</button>
-  <button id="simulation" class="btn btn-primary">People who believe life is a simulation run on god's computer</button>
-  <button id="blue" class="btn btn-primary">Favourite colour blue</button>
+  
 
   <div id="results"></div>
 

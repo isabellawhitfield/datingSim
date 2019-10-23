@@ -172,6 +172,51 @@ document.getElementById('blue').addEventListener('click', function () {
   }
 });
 
+document.getElementById('green').addEventListener('click', function () {
+  document.getElementById('results').innerHTML = "";
+  for (var i = 0; i < dating.length; i++) {
+    if (dating[i].favouriteColour === "Green") {
+      document.getElementById('results').innerHTML += getHtml(dating[i]);
+    }
+  }
+});
+
+document.getElementById('pink').addEventListener('click', function () {
+  document.getElementById('results').innerHTML = "";
+  for (var i = 0; i < dating.length; i++) {
+    if (dating[i].favouriteColour === "Pink") {
+      document.getElementById('results').innerHTML += getHtml(dating[i]);
+    }
+  }
+});
+
+document.getElementById('yellow').addEventListener('click', function () {
+  document.getElementById('results').innerHTML = "";
+  for (var i = 0; i < dating.length; i++) {
+    if (dating[i].favouriteColour === "Yellow") {
+      document.getElementById('results').innerHTML += getHtml(dating[i]);
+    }
+  }
+});
+
+document.getElementById('orange').addEventListener('click', function () {
+  document.getElementById('results').innerHTML = "";
+  for (var i = 0; i < dating.length; i++) {
+    if (dating[i].favouriteColour === "Orange") {
+      document.getElementById('results').innerHTML += getHtml(dating[i]);
+    }
+  }
+});
+
+document.getElementById('navy').addEventListener('click', function () {
+  document.getElementById('results').innerHTML = "";
+  for (var i = 0; i < dating.length; i++) {
+    if (dating[i].favouriteColour === "Navy") {
+      document.getElementById('results').innerHTML += getHtml(dating[i]);
+    }
+  }
+});
+
 document.getElementById('results').innerHTML = "";
 for (var i = 0; i < dating.length; i++) {
   document.getElementById('results').innerHTML += getHtml(dating[i]);
