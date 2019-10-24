@@ -5,6 +5,7 @@ var dating = [
     simulation: true,
     age: 30,
     favouriteColour: "Blue",
+    photo: "images/stacey.jpeg"
 
 
   },
@@ -14,6 +15,7 @@ var dating = [
     simulation: false,
     age: 25,
     favouriteColour: "Green",
+    photo: "images/kate.jpeg"
 
 
   },
@@ -23,6 +25,7 @@ var dating = [
     simulation: true,
     age: 22,
     favouriteColour: "Pink",
+    photo: "images/vincent.jpeg"
 
 
   },
@@ -32,6 +35,7 @@ var dating = [
     simulation: true,
     age: 28,
     favouriteColour: "Purple",
+    photo: "images/friendrich.jpeg"
 
 
   },
@@ -41,6 +45,7 @@ var dating = [
     simulation: true,
     age: 30,
     favouriteColour: "Blue",
+    photo: "images/george.jpeg"
 
 
   },
@@ -50,6 +55,7 @@ var dating = [
     simulation: false,
     age: 24,
     favouriteColour: "Yellow",
+    photo: "images/amelia.jpeg"
 
 
   },
@@ -59,6 +65,7 @@ var dating = [
     simulation: false,
     age: 26,
     favouriteColour: "Red",
+    photo: "images/ava.jpeg"
 
 
   },
@@ -68,6 +75,7 @@ var dating = [
     simulation: true,
     age: 20,
     favouriteColour: "Green",
+    photo: "images/aaron.jpeg"
 
 
   },
@@ -77,6 +85,7 @@ var dating = [
     simulation: true,
     age: 29,
     favouriteColour: "Pink",
+    photo: "images/daniel.jpeg"
 
 
   },
@@ -86,6 +95,7 @@ var dating = [
     simulation: false,
     age: 30,
     favouriteColour: "Orange",
+    photo: "images/harold.jpeg"
 
 
   },
@@ -95,6 +105,7 @@ var dating = [
     simulation: false,
     age: 19,
     favouriteColour: "Navy",
+    photo: "images/abigal.jpeg"
 
 
   },
@@ -104,6 +115,7 @@ var dating = [
     simulation: false,
     age: 20,
     favouriteColour: "Scarlet",
+    photo: "images/scarlett.jpeg"
 
 
   },
@@ -113,6 +125,7 @@ var dating = [
     simulation: true,
     age: 18,
     favouriteColour: "Yellow",
+    photo: "images/ronnie.jpeg"
 
 
   },
@@ -122,6 +135,7 @@ var dating = [
     simulation: true,
     age: 27,
     favouriteColour: "Blue",
+    photo: "images/caleb.jpeg"
 
 
   },
@@ -131,6 +145,7 @@ var dating = [
     simulation: false,
     age: 22,
     favouriteColour: "Green",
+    photo: "images/gabe.jpeg"
 
 
   },
@@ -223,7 +238,7 @@ for (var i = 0; i < dating.length; i++) {
 }
 
 function getHtml(person) {
-  return '<div class="card-body">' +
+  return '<div class="card"><img class="datingimage" src="' + person.photo + '">' +
     '<h5 class="card-title">' + person.name + '</h5>' +
     '<p class="card-text">gender: ' + person.gender + '</p>' +
     '<p class="card-text">simulation: ' + person.simulation + '</p>' +
